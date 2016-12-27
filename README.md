@@ -1,2 +1,3 @@
-# sort-graphql-schema
-Sort large GraphQL JSON schemas
+# Sort GraphQL Schema
+
+Sort JSON GraphQL schemas for commit consistency.
