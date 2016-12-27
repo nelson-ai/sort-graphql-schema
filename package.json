@@ -1,6 +1,6 @@
 {
   "name": "sort-graphql-schema",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Sort JSON GraphQL schemas for commit consistency",
   "main": "index.js",
   "scripts": {
