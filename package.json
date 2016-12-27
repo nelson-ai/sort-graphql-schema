@@ -4,7 +4,13 @@
   "description": "Sort JSON GraphQL schemas for commit consistency",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha $npm_package_options_mocha",
+    "coverage": "./node_modules/.bin/istanbul cover _mocha -- $npm_package_options_mocha",
+    "coverage:serve": "cd coverage/lcov-report && python -m SimpleHTTPServer",
+    "coverage:all": "npm run coverage && npm run coverage:serve"
+  },
+  "options": {
+    "mocha": "--bail --check-leaks"
   },
   "repository": {
     "type": "git",
