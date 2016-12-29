@@ -1,8 +1,8 @@
 {
   "name": "sort-graphql-schema",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sort JSON GraphQL schemas for commit consistency",
-  "main": "index.js",
+  "main": "sortSchema.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha $npm_package_options_mocha",
     "coverage": "./node_modules/.bin/istanbul cover _mocha -- $npm_package_options_mocha",
