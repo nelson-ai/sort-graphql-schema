@@ -1,6 +1,7 @@
 # Sort GraphQL Schema
 
 [![npm version](https://badge.fury.io/js/sort-graphql-schema.svg)](https://www.npmjs.com/package/sort-graphql-schema)
+[![Build Status](https://travis-ci.org/nelson-ai/sort-graphql-schema.svg?branch=master)](https://travis-ci.org/nelson-ai/sort-graphql-schema)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 
 Sort JSON GraphQL schemas for commit consistency.
