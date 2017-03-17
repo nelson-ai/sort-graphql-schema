@@ -12,7 +12,7 @@ function sortSchema(schemaPart) {
 
         if (type === 'object') objects.push(sortSchema(part));
         else if (type === 'string') strings.push(part);
-        else throw new Error(`Unknow type: ${type}`);
+        else throw new Error(`Unknown type: ${type}`);
       });
 
       return strings.sort().concat(objects.sort((a, b) => a.name < b.name ? -1 : 1));
