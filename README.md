@@ -14,6 +14,17 @@ Runs on Node v6 or higher.
 
 `npm install sort-graphql-schema --save-dev`
 
+or install globally for cli usage.
+
+`npm install -g sort-graphql-schema`
+
+## Cli Usage
+
+
+```
+sort-graphql schema.json
+```
+
 ## Usage
 
 ```js
