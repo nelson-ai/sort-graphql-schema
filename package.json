@@ -1,6 +1,6 @@
 {
   "name": "sort-graphql-schema",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Sort JSON GraphQL schemas for commit consistency",
   "author": "David Hérault <dherault@nelson.ai> (https://github.com/dherault)",
   "license": "MIT",
@@ -35,7 +35,7 @@
     "node": ">=6.9.1"
   },
   "bin": {
-    "sort-graphql": "./cli.js"
+    "sort-graphql-schema": "./cli.js"
   },
   "devDependencies": {
     "chai": "^3.5.0",
