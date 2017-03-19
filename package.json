@@ -19,9 +19,6 @@
     "coverage:serve": "cd coverage/lcov-report && python -m SimpleHTTPServer",
     "coverage:all": "npm run coverage && npm run coverage:serve"
   },
-  "bin": {
-    "sort-graphql": "./cli.js"
-  },
   "options": {
     "mocha": "--bail --check-leaks"
   },
@@ -31,8 +28,14 @@
     "JSON",
     "sort"
   ],
+  "contributors": [
+    "سید مرتضی موسوی (https://github.com/smmoosavi)"
+  ],
   "engines": {
     "node": ">=6.9.1"
+  },
+  "bin": {
+    "sort-graphql": "./cli.js"
   },
   "devDependencies": {
     "chai": "^3.5.0",
